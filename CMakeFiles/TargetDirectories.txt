@@ -1,0 +1,3 @@
+/home/ddh/Desktop/github/mytest/CMakeFiles/edit_cache.dir
+/home/ddh/Desktop/github/mytest/CMakeFiles/rebuild_cache.dir
+/home/ddh/Desktop/github/mytest/CMakeFiles/HelloWorld.dir
