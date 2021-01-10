@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+
+    <!-- <iframe id="ifKetcher" src="http://localhost:4001" width="800" height="600"></iframe> -->
+    <iframe id="ifKetcher" src="C:\Users\ddh\Desktop\github\ketcher\example\dist\remote\index.html" width="800" height="600"></iframe>
+    
+    <script>
+        var ketcherFrame = document.getElementById('ifKetcher');
+        
+        // var ketcher = null;
+        
+        if ('contentDocument' in ketcherFrame)
+            // ketcher = ketcherFrame.contentWindow.ketcher;
+            ketcher = ketcherFrame.contentWindow.;
+        else // IE7
+            ketcher = document.frames['ifKetcher'].window.ketcher;
+        
+        ketcher.setMolecule('c1ccccc1');
+        // ketcher.addFragment('c1ccccc1');
+        </script>
+        
+<h1>A Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html>
